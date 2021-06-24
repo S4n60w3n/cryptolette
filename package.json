@@ -1,0 +1,17 @@
+{
+  "name": "truffle-quickstart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "truffle develop",
+    "test": "truffle test",
+    "test:all": "truffle test && cd client && npm run test",
+    "migrate": "truffle migrate",
+    "migrate:ganache": "truffle migrate ganache"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "truffle": "5.3.11"
+  }
+}
