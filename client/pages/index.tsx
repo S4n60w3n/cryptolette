@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import React from 'react'
 
+import { Button } from '../components/Button'
 import { useSimpleStorageContract } from '../data/useSimpleStorageContract'
 
 type Props = {}
@@ -15,13 +16,13 @@ const Home: NextPage<Props> = ({}) => {
   return (
     <>
       <div>Stored value {value}</div>
-      <button
+      <Button
         onClick={() => {
           changeValue(Number(value || 0) + 1)
         }}
       >
         Change
-      </button>
+      </Button>
     </>
   )
 }
