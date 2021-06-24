@@ -1,5 +1,6 @@
 import { NextPage } from 'next'
 import React from 'react'
+
 import { ClientRender } from '../components/ClientRender'
 
 import '../styles/globals.css'
@@ -16,10 +17,8 @@ const MyApp: NextPage<Props> = ({ pageProps, Component }) => {
         <Component />
       </ClientRender>
     )
-  } 
-  return (
-      <Component {...pageProps} />
-  )
+  }
+  return <Component {...pageProps} />
 }
 MyApp.displayName = '_app'
 
