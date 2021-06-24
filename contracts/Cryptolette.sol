@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.21 <0.7.0;
+pragma solidity 0.8.6;
 
-contract SimpleStorage {
+contract Cryptolette {
   uint storedData;
 
   function set(uint x) public {

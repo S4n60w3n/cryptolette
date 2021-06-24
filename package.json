@@ -4,14 +4,22 @@
   "private": true,
   "scripts": {
     "dev": "truffle develop",
-    "test": "truffle test",
+    "compile": "truffle compile",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:all": "truffle test && cd client && npm run test",
     "migrate": "truffle migrate",
     "migrate:ganache": "truffle migrate ganache"
   },
   "dependencies": {
+    "@openzeppelin/test-helpers": "0.5.11"
   },
   "devDependencies": {
-    "truffle": "5.3.11"
+    "@openzeppelin/test-environment": "0.1.9",
+    "@types/jest": "26.0.23",
+    "jest": "27.0.5",
+    "truffle": "5.3.11",
+    "ts-jest": "27.0.3",
+    "typescript": "4.3.4"
   }
 }
