@@ -22,7 +22,7 @@ enum FieldNumberValue {
 
 jest.setTimeout(30000)
 
-describe('Cryptolette', function () {
+describe('rulette', function () {
   const [owner] = accounts
   let myContract
 

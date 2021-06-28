@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;
 
-contract Cryptolette {
+contract Rulette {
     enum FieldColor {
         ZERO,
         BLACK,
