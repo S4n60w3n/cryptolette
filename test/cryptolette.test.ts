@@ -1,5 +1,4 @@
 import { accounts, contract } from '@openzeppelin/test-environment'
-import { BN } from '@openzeppelin/test-helpers'
 
 const MyContract = contract.fromArtifact('Cryptolette')
 
